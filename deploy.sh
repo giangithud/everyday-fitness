@@ -1,5 +1,5 @@
 #!/bin/bash
-
+git config --local credential.helper store
 git pull
 git status
 git add .
