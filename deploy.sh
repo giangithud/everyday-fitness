@@ -1,5 +1,6 @@
 #!/bin/bash
-git config --local credential.helper store
+#git config --local credential.helper store
+git config --global credential.helper store
 git pull
 git status
 git add .
